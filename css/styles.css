@@ -75,24 +75,16 @@ box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.4) inset;
   display: flex;
   justify-content: space-between;
 
-  background-image: linear-gradient( 160deg #c62828 #f44336) ;
-
-  /*
-        #4 
-        Mettre un arrière-plan en dégradé de la couleur #c62828 à la couleur #f44336
-        avec une rotation du dégradé de 160deg.
-
-        Il faut arriver au même résultat que l'image de référence.
-
-        Référence pour le dégradé:
-            https://la-cascade.io/les-degrades-css/
-    */
+  background-image: linear-gradient( 160deg #c62828, #f44336) ;
+  background-image: linear-gradient(45deg,#c62828 50%, #f44336 50%) ;
 }
 
 .bouton2 {
   display: flex;
   justify-content: center;
 
+
+  background-image: linear-gradient(to up, #a7cedd #265488);
   /*
         #5
         Mettre un arrière-plan en dégradé de la couleur #a7cedd à la couleur #265488 du bas vers le haut.
