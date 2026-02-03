@@ -58,23 +58,18 @@ header {
 
   box-shadow: 5px 10px 3px 0px rgba(0, 0, 0, 0.2) ;
 
-  /*
-      #2 
-      Mettre une ombre aux boutons :
-        - La distance du flou de l'ombre doit être de 3px
-        - Décalage vers le bas doit être de 10px
-        - Décalage vers la droite doit être de 5px
-        - La couleur de l'ombre doit être noir avec une transparence à 0.2
-
-      Référence pour l'ombre :
-        https://www.alsacreations.com/tuto/lire/1338-css3-box-shadow-ombre.html
-    */
 }
 
 .bouton1 span:last-child {
   color: #c62828;
 }
 
+section a:hover {
+
+box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.4);
+
+
+}
 /*
     #3 
     Au survol des sections, mettre une ombre interne aux boutons :
