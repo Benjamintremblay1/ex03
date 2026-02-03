@@ -66,7 +66,7 @@ header {
 
 section a:hover {
 
-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.4);
+box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.4) inset;
 
 
 }
