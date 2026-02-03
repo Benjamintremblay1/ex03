@@ -70,21 +70,12 @@ box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.4) inset;
 
 
 }
-/*
-    #3 
-    Au survol des sections, mettre une ombre interne aux boutons :
-        - La distance du flou de l'ombre doit être de 2px
-        - Décalage vers le bas doit être de 5px
-        - Décalage vers la droite doit être de 5px
-        - La couleur de l'ombre doit être noir avec une transparence à 0.4
-
-        Référence pour l'ombre :
-            https://www.alsacreations.com/tuto/lire/1338-css3-box-shadow-ombre.html
-*/
 
 .bouton1 {
   display: flex;
   justify-content: space-between;
+
+  background-image: linear-gradient( 160deg #c62828 #f44336) ;
 
   /*
         #4 
